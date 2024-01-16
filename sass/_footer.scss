@@ -1,0 +1,24 @@
+.sec-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 0;
+  .footer-izq {
+    color: #b1b1b1;
+  }
+
+  .footer-der {
+    display: flex;
+    color: #b1b1b1;
+    a {
+      text-decoration: none;
+      color: #b1b1b1;
+      margin: 0 1rem;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+    a:hover {
+      color: #555555;
+    }
+  }
+}

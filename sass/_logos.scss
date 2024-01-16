@@ -1,0 +1,40 @@
+/*.sec-kpis{
+    width: 100%;
+    background-color: #161616;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .kpi-logo{
+        display: inline-block;
+        width: 6rem;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }
+}*/
+
+.slider {
+  width: 100%;
+  padding: 4rem 0;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #1a1a1a;
+  overflow-x: hidden;
+  .kpi {
+    margin: 0 10px;
+  }
+  .kpi-logo {
+    display: inline-block;
+    width: 8rem;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+  }
+}
+
+.kpi-celular {
+  .celular {
+    .celular-logo {
+      display: none;
+    }
+  }
+}

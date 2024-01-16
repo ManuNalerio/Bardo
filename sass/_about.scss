@@ -1,0 +1,24 @@
+.sec-about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10rem 0;
+  .text-about {
+    color: #666666;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .texto-sec-about {
+    margin: 1rem 0;
+  }
+}
+
+.sec-contacto {
+  width: 100%;
+  margin: 6rem 0;
+  text-align: center;
+  .contacto-text {
+    width: 100%;
+  }
+}
