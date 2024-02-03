@@ -1,9 +1,6 @@
 @media (max-width: 768px) {
   body {
-    background-image: radial-gradient(#332f49 1px, transparent 1px);
-    background-size: 25px 25px;
-    background-color: #161616;
-    background-attachment: fixed;
+    background-color: #131313;
   }
   .nav {
     display: flex;
@@ -46,7 +43,6 @@
   }
 
   .sec-about {
-    margin: 4rem 0;
     .text-about {
       font-size: 1.5rem;
     }
@@ -55,6 +51,7 @@
   .sec-footer {
     display: flex;
     flex-direction: column;
+    padding: 10rem 0 2rem 0;
     .footer-izq {
       p {
         display: none;
@@ -80,7 +77,7 @@
   }
   .sec-about {
     .text-about {
-      margin: 0 2rem;
+      padding: 0 1rem;
     }
   }
   .sec-contacto {

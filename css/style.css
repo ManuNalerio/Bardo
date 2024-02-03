@@ -7,41 +7,36 @@
   font-family: "Open Sans", sans-serif;
 }
 
-body {
-  background-image: radial-gradient(#333333 1px, transparent 1px);
-  background-size: 25px 25px;
-  background-color: #161616;
-  background-attachment: fixed;
-}
-
 /* FONTS */
 .nav {
   display: flex;
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  margin-top: 1.7rem;
+  background-color: transparent;
+  padding: 2rem;
+  position: absolute;
 }
 
 .sec-izq a {
   text-decoration: none;
-  color: #b1b1b1;
+  color: #fff;
   font-weight: 500;
   display: flex;
   align-items: center;
   font-size: 1rem;
 }
 .sec-izq .item-izquierdo {
-  margin: 0 1rem;
+  margin: 0 5px;
+  color: #9b9b9b;
 }
 .sec-izq a:hover {
-  color: #555555;
+  color: #9b9b9b;
 }
 
 .sec-der {
   display: flex;
   flex-direction: row;
-  color: #b1b1b1;
   font-weight: 500;
 }
 .sec-der .item-derecha {
@@ -49,17 +44,16 @@ body {
 }
 .sec-der a {
   text-decoration: none;
-  color: #b1b1b1;
+  color: #fff;
   font-size: 1rem;
   margin: 0 1rem;
 }
 .sec-der a:hover {
-  color: #555555;
+  color: #9b9b9b;
 }
 
-hr {
-  margin: 1.3rem 19rem;
-  border-color: #b1b1b1;
+.separador {
+  color: #fff;
 }
 
 .home {
@@ -72,14 +66,15 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.home .imagen .cont-saludos img {
-  width: 160px;
-  height: 160px;
-  margin: 4rem 0 2.5rem 0;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(/multimedia/bubble-blur.svg);
+  background-color: #131313;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .home .imagen .cont-saludos .texto-saludo {
-  color: #b1b1b1;
+  color: #fff;
 }
 .home .imagen .cont-saludos .title {
   font-size: 4rem;
@@ -88,31 +83,10 @@ hr {
   text-align: center;
   margin-top: 4rem;
   background-clip: text;
+  font-weight: 700;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(to right, #dadada, #474453);
-}
-.home .imagen .cont-saludos .btn-talk {
-  display: flex;
-  margin: 4rem 0;
-  padding: 1rem 4rem;
-  border: none;
-  background-color: #1a1a1a;
-  color: #b1b1b1;
-  border-radius: 0.4rem;
-  cursor: pointer;
-  text-decoration: none;
-  transition: all 0.3s ease-out;
-}
-.home .imagen .cont-saludos .btn-talk .btn-image {
-  width: 1rem;
-  height: 1rem;
-  margin: 0 0 0 1rem;
-}
-
-.home .imagen .cont-saludos .btn-talk:hover {
-  transform: scale(1.2);
-  color: #b1b1b1;
+  background-image: linear-gradient(to right, #fff, #958faa);
 }
 
 /*.sec-kpis{
@@ -153,10 +127,11 @@ hr {
 
 .sec-about {
   width: 100%;
+  background-color: #131313;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 10rem 0;
+  padding: 10rem 0;
 }
 .sec-about .text-about {
   color: #666666;
@@ -180,6 +155,7 @@ hr {
   width: 100%;
   display: flex;
   padding: 0 3rem;
+  background-color: #131313;
 }
 .sec-tarjetas .tarjetas {
   width: 100%;
@@ -190,7 +166,7 @@ hr {
 }
 .sec-tarjetas .tarjetas .tarjeta-1 {
   width: 100%;
-  background-color: #1a1a1a;
+  background-color: #151515;
   border: none;
   border-radius: 4px;
 }
@@ -209,22 +185,28 @@ hr {
   color: #626266;
 }
 
-.texto {
+.sec-contacto {
+  background-color: #131313;
+  padding: 0;
+  margin: 0;
+}
+.sec-contacto .texto {
   color: #666666;
   font-size: 3rem;
-  margin: 5rem 0;
+  padding: 7rem 0;
   font-weight: 600;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(to right, #dadada, #474453);
+  background-image: linear-gradient(to right, #dadada, #87829e);
 }
 
 .sec-footer {
   width: 100%;
+  background-color: #131313;
   display: flex;
   justify-content: space-evenly;
-  margin: 1rem 0;
+  padding: 3rem 0;
 }
 .sec-footer .footer-izq {
   color: #b1b1b1;
@@ -246,10 +228,7 @@ hr {
 
 @media (max-width: 768px) {
   body {
-    background-image: radial-gradient(#332f49 1px, transparent 1px);
-    background-size: 25px 25px;
-    background-color: #161616;
-    background-attachment: fixed;
+    background-color: #131313;
   }
   .nav {
     display: flex;
@@ -279,15 +258,13 @@ hr {
     margin-top: 2.5rem;
     margin-bottom: 2rem;
   }
-  .sec-about {
-    margin: 4rem 0;
-  }
   .sec-about .text-about {
     font-size: 1.5rem;
   }
   .sec-footer {
     display: flex;
     flex-direction: column;
+    padding: 10rem 0 2rem 0;
   }
   .sec-footer .footer-izq p {
     display: none;
@@ -304,7 +281,7 @@ hr {
     justify-content: center !important;
   }
   .sec-about .text-about {
-    margin: 0 2rem;
+    padding: 0 1rem;
   }
   .sec-contacto .contacto-text {
     width: 100%;
