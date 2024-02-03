@@ -237,7 +237,7 @@
     margin: 1rem 0 0 0;
   }
   .sec-izq {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
   hr {
     display: none;
@@ -252,6 +252,9 @@
     background-color: rgba(197, 197, 197, 0.1098039216);
     border-radius: 12px;
     border: 1px solid #979797;
+  }
+  .home .imagen .cont-saludos {
+    padding-top: 11rem;
   }
   .home .imagen .cont-saludos .title {
     font-size: 3rem;
@@ -271,10 +274,6 @@
   }
   .sec-footer .footer-der {
     justify-content: center;
-  }
-  .sec-footer .btn-talk {
-    margin: 1rem;
-    text-align: center;
   }
   .sec-footer .footer-der .item-footer a {
     display: flex;
@@ -298,6 +297,10 @@
   }
   .sec-tarjetas .tarjetas {
     flex-direction: column;
+  }
+  .sec-tarjetas .tarjetas .tarjeta-1 {
+    background-color: #1b1b1b;
+    border: 1px dashed #fff;
   }
 }
 @media (max-width: 1440px) {

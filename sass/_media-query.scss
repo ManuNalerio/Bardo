@@ -10,7 +10,7 @@
   }
 
   .sec-izq {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   hr {
@@ -33,6 +33,7 @@
   .home {
     .imagen {
       .cont-saludos {
+        padding-top: 11rem;
         .title {
           font-size: 3rem;
           margin-top: 2.5rem;
@@ -59,11 +60,6 @@
     }
     .footer-der {
       justify-content: center;
-    }
-
-    .btn-talk {
-      margin: 1rem;
-      text-align: center;
     }
 
     .footer-der {
@@ -96,6 +92,10 @@
     justify-content: center;
     .tarjetas {
       flex-direction: column;
+      .tarjeta-1 {
+        background-color: #1b1b1b;
+        border: 1px dashed #fff;
+      }
     }
   }
 }
