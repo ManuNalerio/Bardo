@@ -142,6 +142,7 @@
 .sec-about .texto-sec-about {
   margin: 1rem 0;
 }
+
 .sec-contacto {
   width: 100%;
   margin: 6rem 0;
@@ -300,7 +301,7 @@
   }
   .sec-tarjetas .tarjetas .tarjeta-1 {
     background-color: #1b1b1b;
-    border: 1px dashed #fff;
+    border: 1px dashed #505050;
   }
 }
 @media (min-width: 1024px) {
