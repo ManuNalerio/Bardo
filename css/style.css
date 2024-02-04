@@ -137,11 +137,11 @@
   color: #666666;
   text-align: center;
   font-size: 2rem;
+  padding: 0 12rem;
 }
 .sec-about .texto-sec-about {
   margin: 1rem 0;
 }
-
 .sec-contacto {
   width: 100%;
   margin: 6rem 0;
@@ -287,7 +287,7 @@
   }
   .sec-contacto .contacto-text .texto {
     font-size: 2.5rem;
-    padding: 0 1rem;
+    padding: 7rem 1rem 0 1rem;
   }
   .sec-tarjetas {
     width: 100%;
@@ -301,6 +301,12 @@
   .sec-tarjetas .tarjetas .tarjeta-1 {
     background-color: #1b1b1b;
     border: 1px dashed #fff;
+  }
+}
+@media (min-width: 1024px) {
+  .sec-tarjetas .tarjetas {
+    margin: 0;
+    padding: 5rem;
   }
 }
 @media (max-width: 1440px) {
