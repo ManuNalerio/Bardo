@@ -134,13 +134,17 @@
   padding: 10rem 0;
 }
 .sec-about .text-about {
-  color: #666666;
+  color: #fff;
   text-align: center;
   font-size: 2rem;
   padding: 0 12rem;
 }
 .sec-about .texto-sec-about {
   margin: 1rem 0;
+  font-family: "Raleway", sans-serif;
+}
+.sec-about .texto-sec-about .tech {
+  font-family: "Raleway", sans-serif;
 }
 
 .sec-contacto {
@@ -179,11 +183,11 @@
   height: 3rem;
 }
 .sec-tarjetas .tarjetas .tarjeta-1 h2 {
-  color: #626266;
+  color: #fff;
   margin: 1rem 0;
 }
 .sec-tarjetas .tarjetas .tarjeta-1 p {
-  color: #626266;
+  color: #fff;
 }
 
 .sec-contacto {
@@ -194,7 +198,7 @@
 .sec-contacto .texto {
   color: #666666;
   font-size: 3rem;
-  padding: 7rem 0;
+  padding: 10rem 0;
   font-weight: 600;
   background-clip: text;
   -webkit-background-clip: text;
@@ -210,21 +214,21 @@
   padding: 3rem 0;
 }
 .sec-footer .footer-izq {
-  color: #b1b1b1;
+  color: #fff;
 }
 .sec-footer .footer-der {
   display: flex;
-  color: #b1b1b1;
+  color: #fff;
 }
 .sec-footer .footer-der a {
   text-decoration: none;
-  color: #b1b1b1;
+  color: #fff;
   margin: 0 1rem;
   font-size: 1rem;
   font-weight: 500;
 }
 .sec-footer .footer-der a:hover {
-  color: #555555;
+  color: #9b9b9b;
 }
 
 @media (max-width: 768px) {

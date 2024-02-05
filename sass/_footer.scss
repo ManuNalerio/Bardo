@@ -5,21 +5,21 @@
   justify-content: space-evenly;
   padding: 3rem 0;
   .footer-izq {
-    color: #b1b1b1;
+    color: #fff;
   }
 
   .footer-der {
     display: flex;
-    color: #b1b1b1;
+    color: #fff;
     a {
       text-decoration: none;
-      color: #b1b1b1;
+      color: #fff;
       margin: 0 1rem;
       font-size: 1rem;
       font-weight: 500;
     }
     a:hover {
-      color: #555555;
+      color: #9b9b9b;
     }
   }
 }
