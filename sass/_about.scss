@@ -8,8 +8,12 @@
   .text-about {
     color: #fff;
     text-align: center;
-    font-size: 2rem;
+    font-size: 25px;
     padding: 0 12rem;
+    h2 {
+      font-size: 3rem;
+      padding-bottom: 2rem;
+    }
   }
   .texto-sec-about {
     margin: 1rem 0;
