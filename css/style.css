@@ -131,17 +131,17 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10rem 0;
+  padding: 15rem 0 17rem 0;
 }
 .sec-about .text-about {
   color: #fff;
   text-align: center;
   font-size: 25px;
-  padding: 0 12rem;
+  padding: 0 22rem;
 }
 .sec-about .text-about h2 {
   font-size: 3rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
 }
 .sec-about .texto-sec-about {
   margin: 1rem 0;
@@ -163,7 +163,7 @@
 .sec-tarjetas {
   width: 100%;
   display: flex;
-  padding: 0 3rem;
+  padding: 0 10rem;
   background-color: #131313;
 }
 .sec-tarjetas .tarjetas {
@@ -201,8 +201,8 @@
 }
 .sec-contacto .texto {
   color: #666666;
-  font-size: 3rem;
-  padding: 10rem 0;
+  font-size: 5rem;
+  padding: 15rem 0 9rem 0;
   font-weight: 600;
   background-clip: text;
   -webkit-background-clip: text;
@@ -242,7 +242,7 @@
   background-color: #131313;
   justify-content: space-evenly;
   align-items: center;
-  padding: 7rem 0;
+  padding: 10rem 9rem;
 }
 .footer-1 ul {
   list-style: none;
@@ -255,7 +255,7 @@
   margin: 0 0 1rem 1rem;
 }
 .footer-1 .title-subelemento {
-  font-size: 1rem;
+  font-size: 18px;
   color: #fff;
 }
 .footer-1 .title-subelemento a .text-subelemento {
@@ -290,8 +290,8 @@
   .texto-contacto {
     padding: 0.5rem;
     border-radius: 0.5rem;
-    color: #979797;
-    background-color: rgba(197, 197, 197, 0.1098039216);
+    color: #fff;
+    background-color: rgba(158, 158, 158, 0.4745098039);
     border-radius: 12px;
     border: 1px solid #979797;
   }
@@ -336,6 +336,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0;
   }
   .sec-tarjetas .tarjetas {
     flex-direction: column;
