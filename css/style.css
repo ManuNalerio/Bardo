@@ -68,16 +68,16 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url(/multimedia/bubble-blur.svg);
-  background-color: #131313;
+  background-image: url(/multimedia/blur-background-.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .home .imagen .cont-saludos .texto-saludo {
   color: #fff;
+  font-size: 1.5rem;
 }
 .home .imagen .cont-saludos .title {
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-family: "Raleway", sans-serif;
   margin: 0 25rem;
   text-align: center;
@@ -86,7 +86,8 @@
   font-weight: 700;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(to right, #fff, #958faa);
+  background-image: linear-gradient(to right, #303030, #303030);
+  text-shadow: 1px 1px #fff;
 }
 
 /*.sec-kpis{
@@ -127,14 +128,14 @@
 
 .sec-about {
   width: 100%;
-  background-color: #131313;
+  background-color: #ececec;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 15rem 0 17rem 0;
 }
 .sec-about .text-about {
-  color: #fff;
+  color: #000;
   text-align: center;
   font-size: 25px;
   padding: 0 22rem;
@@ -164,7 +165,7 @@
   width: 100%;
   display: flex;
   padding: 0 10rem;
-  background-color: #131313;
+  background-color: #ececec;
 }
 .sec-tarjetas .tarjetas {
   width: 100%;
@@ -175,8 +176,8 @@
 }
 .sec-tarjetas .tarjetas .tarjeta-1 {
   width: 100%;
-  background-color: #151515;
-  border: none;
+  background-color: #ececec;
+  border: 1px dashed #000;
   border-radius: 4px;
 }
 .sec-tarjetas .tarjetas .tarjeta-1 .contenedor-item-tarjetas {
@@ -187,15 +188,15 @@
   height: 3rem;
 }
 .sec-tarjetas .tarjetas .tarjeta-1 h2 {
-  color: #fff;
+  color: #000;
   margin: 1rem 0;
 }
 .sec-tarjetas .tarjetas .tarjeta-1 p {
-  color: #fff;
+  color: #000;
 }
 
 .sec-contacto {
-  background-color: #131313;
+  background-color: #ececec;
   padding: 0;
   margin: 0;
 }
@@ -207,26 +208,26 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(to right, #dadada, #87829e);
+  background-image: linear-gradient(to right, #adadad, #5d5a6d);
 }
 
 .sec-footer {
   width: 100%;
-  background-color: #131313;
+  background-color: #ececec;
   display: flex;
   justify-content: space-evenly;
   padding: 3rem 0;
 }
 .sec-footer .footer-izq {
-  color: #fff;
+  color: #000;
 }
 .sec-footer .footer-der {
   display: flex;
-  color: #fff;
+  color: #000;
 }
 .sec-footer .footer-der a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
   margin: 0 1rem;
   font-size: 1rem;
   font-weight: 500;
@@ -239,7 +240,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  background-color: #131313;
+  background-color: #ececec;
   justify-content: space-evenly;
   align-items: center;
   padding: 10rem 9rem;
@@ -249,40 +250,33 @@
 }
 .footer-1 .title-footer {
   font-size: 2.5rem;
-  color: #fff;
+  color: #000;
 }
 .footer-1 .div-subelementos {
   margin: 0 0 1rem 1rem;
 }
 .footer-1 .title-subelemento {
   font-size: 18px;
-  color: #fff;
+  color: #000;
 }
 .footer-1 .title-subelemento a .text-subelemento {
   text-decoration: none;
 }
 .footer-1 .text-subelemento {
-  color: #fff;
+  color: #000;
 }
 .footer-1 .footer-elemento {
   display: flex;
 }
 
 @media (max-width: 768px) {
-  body {
-    background-color: #131313;
-  }
   .nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1rem 0 0 0;
   }
   .sec-izq {
     margin-bottom: 2rem;
-  }
-  hr {
-    display: none;
   }
   .item-izquierdo {
     display: none;
@@ -299,9 +293,12 @@
     padding-top: 11rem;
   }
   .home .imagen .cont-saludos .title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: 2.5rem;
     margin-bottom: 2rem;
+  }
+  .home .imagen .cont-saludos .texto-saludo {
+    font-size: 1rem;
   }
   .sec-about .text-about {
     font-size: 1.5rem;
@@ -342,8 +339,8 @@
     flex-direction: column;
   }
   .sec-tarjetas .tarjetas .tarjeta-1 {
-    background-color: #1b1b1b;
-    border: 1px dashed #505050;
+    background-color: #ececec;
+    border: 1px dashed #000;
   }
   .footer-1 {
     display: flex;

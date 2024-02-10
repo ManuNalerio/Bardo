@@ -1,20 +1,12 @@
 @media (max-width: 768px) {
-  body {
-    background-color: #131313;
-  }
   .nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1rem 0 0 0;
   }
 
   .sec-izq {
     margin-bottom: 2rem;
-  }
-
-  hr {
-    display: none;
   }
 
   .item-izquierdo {
@@ -35,9 +27,12 @@
       .cont-saludos {
         padding-top: 11rem;
         .title {
-          font-size: 3rem;
+          font-size: 2.5rem;
           margin-top: 2.5rem;
           margin-bottom: 2rem;
+        }
+        .texto-saludo {
+          font-size: 1rem;
         }
       }
     }
@@ -94,8 +89,8 @@
     .tarjetas {
       flex-direction: column;
       .tarjeta-1 {
-        background-color: #1b1b1b;
-        border: 1px dashed #505050;
+        background-color: #ececec;
+        border: 1px dashed #000;
       }
     }
   }
