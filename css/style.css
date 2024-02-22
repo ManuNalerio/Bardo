@@ -68,7 +68,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url(/multimedia/sKAIh3tk.png);
+  background-image: url(/multimedia/Radial3-Grain2.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -128,14 +128,14 @@
 
 .sec-about {
   width: 100%;
-  background-color: #ececec;
+  background-color: #151922;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 15rem 0 17rem 0;
 }
 .sec-about .text-about {
-  color: #000;
+  color: #fff;
   text-align: center;
   font-size: 25px;
   padding: 0 22rem;
@@ -165,7 +165,7 @@
   width: 100%;
   display: flex;
   padding: 10rem 10rem;
-  background-color: #ececec;
+  background-color: #151922;
 }
 .sec-tarjetas .tarjetas {
   width: 100%;
@@ -176,8 +176,8 @@
 }
 .sec-tarjetas .tarjetas .tarjeta-1 {
   width: 100%;
-  background-color: #ececec;
-  border: 1px dashed #000;
+  background-color: #151922;
+  border: 1px dashed #fff;
   border-radius: 4px;
 }
 .sec-tarjetas .tarjetas .tarjeta-1 .contenedor-item-tarjetas {
@@ -188,15 +188,15 @@
   height: 3rem;
 }
 .sec-tarjetas .tarjetas .tarjeta-1 h2 {
-  color: #000;
+  color: #fff;
   margin: 1rem 0;
 }
 .sec-tarjetas .tarjetas .tarjeta-1 p {
-  color: #000;
+  color: #fff;
 }
 
 .sec-contacto {
-  background-color: #ececec;
+  background-color: #151922;
   padding: 0;
   margin: 0;
 }
@@ -207,27 +207,26 @@
   font-weight: 600;
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
-  background-image: linear-gradient(to right, #adadad, #5d5a6d);
+  color: #fff;
 }
 
 .sec-footer {
   width: 100%;
-  background-color: #ececec;
+  background-color: #151922;
   display: flex;
   justify-content: space-evenly;
   padding: 3rem 0;
 }
 .sec-footer .footer-izq {
-  color: #000;
+  color: #fff;
 }
 .sec-footer .footer-der {
   display: flex;
-  color: #000;
+  color: #fff;
 }
 .sec-footer .footer-der a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   margin: 0 1rem;
   font-size: 1rem;
   font-weight: 500;
@@ -240,7 +239,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  background-color: #ececec;
+  background-color: #151922;
   justify-content: space-evenly;
   align-items: center;
   padding: 10rem 9rem;
@@ -250,20 +249,20 @@
 }
 .footer-1 .title-footer {
   font-size: 2.5rem;
-  color: #000;
+  color: #fff;
 }
 .footer-1 .div-subelementos {
   margin: 0 0 1rem 1rem;
 }
 .footer-1 .title-subelemento {
   font-size: 18px;
-  color: #000;
+  color: #fff;
 }
 .footer-1 .title-subelemento a .text-subelemento {
   text-decoration: none;
 }
 .footer-1 .text-subelemento {
-  color: #000;
+  color: #fff;
 }
 .footer-1 .footer-elemento {
   display: flex;
@@ -339,8 +338,8 @@
     flex-direction: column;
   }
   .sec-tarjetas .tarjetas .tarjeta-1 {
-    background-color: #ececec;
-    border: 1px dashed #000;
+    background-color: #151922;
+    border: 1px dashed #fff;
   }
   .footer-1 {
     display: flex;
