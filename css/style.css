@@ -212,7 +212,7 @@
 
 .sec-footer {
   width: 100%;
-  background-color: #000000;
+  background-color: #050505;
   display: flex;
   justify-content: space-evenly;
   padding: 3rem 0;
@@ -342,7 +342,7 @@
     flex-direction: column;
   }
   .sec-tarjetas .tarjetas .tarjeta-1 {
-    background-color: #13131b;
+    background-color: #050505;
     border: 1px dashed #fff;
   }
   .footer-1 {
