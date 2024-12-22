@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+@import "menu";
+@import "home";
+@import "logos";
+@import "about";
+@import "tarjetas";
+@import "in-code-we-trust";
+@import "footer";
+@import "media-query";
