@@ -20,11 +20,11 @@
 
 .sec-izq a {
   text-decoration: none;
-  color: #fff;
-  font-weight: 500;
+  color: #332e2e;
+  font-weight: 700;
   display: flex;
   align-items: center;
-  font-size: 1rem;
+  font-size: 20px;
 }
 .sec-izq .item-izquierdo {
   margin: 0 5px;
@@ -37,15 +37,15 @@
 .sec-der {
   display: flex;
   flex-direction: row;
-  font-weight: 500;
+  font-weight: 600;
 }
 .sec-der .item-derecha {
   margin: 0 1rem;
 }
 .sec-der a {
   text-decoration: none;
-  color: #fff;
-  font-size: 1rem;
+  color: #332e2e;
+  font-size: 20px;
   margin: 0 1rem;
 }
 .sec-der a:hover {
@@ -53,7 +53,8 @@
 }
 
 .separador {
-  color: #fff;
+  font-size: 20px;
+  color: #332e2e;
 }
 
 .home {
@@ -68,12 +69,12 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url(/multimedia/gggrain.svg);
+  background-image: url(/multimedia/bblur.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .home .imagen .cont-saludos .texto-saludo {
-  color: #fff;
+  color: #332e2e;
   font-size: 1.5rem;
 }
 .home .imagen .cont-saludos .title {
@@ -86,8 +87,7 @@
   font-weight: 700;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(to right, #303030, #303030);
-  text-shadow: 1px 1px #fff;
+  text-shadow: 1px 1px #303030;
 }
 
 /*.sec-kpis{
@@ -109,7 +109,7 @@
   padding: 4rem 0;
   text-align: center;
   margin: 0 auto;
-  background-color: #12121c;
+  background: linear-gradient(145deg, #e8e2f8, #d6d0ec);
   overflow-x: hidden;
 }
 .slider .kpi {
@@ -128,20 +128,21 @@
 
 .sec-about {
   width: 100%;
-  background-color: #13131b;
+  background-color: #fff7f3;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 15rem 0 17rem 0;
 }
 .sec-about .text-about {
-  color: #fff;
+  color: #303030;
   text-align: center;
   font-size: 25px;
   padding: 0 22rem;
+  font-weight: 600;
 }
 .sec-about .text-about h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   padding-bottom: 4rem;
 }
 .sec-about .texto-sec-about {
@@ -164,69 +165,94 @@
 .sec-tarjetas {
   width: 100%;
   display: flex;
-  padding: 10rem 10rem;
-  background-color: #13131b;
+  justify-content: center;
+  padding: 8rem 2rem;
+  background-color: #fff7f3;
 }
 .sec-tarjetas .tarjetas {
   width: 100%;
+  max-width: 1400px;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   gap: 2rem;
-  margin: 2rem 19rem;
 }
 .sec-tarjetas .tarjetas .tarjeta-1 {
-  width: 100%;
-  background-color: #13131b;
-  border: 1px dashed #fff;
-  border-radius: 4px;
+  flex: 1 1 45%;
+  background: linear-gradient(145deg, #e8e2f8, #d6d0ec);
+  border-radius: 16px;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  min-height: 260px;
+}
+.sec-tarjetas .tarjetas .tarjeta-1:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.08);
 }
 .sec-tarjetas .tarjetas .tarjeta-1 .contenedor-item-tarjetas {
-  margin: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: left;
 }
-.sec-tarjetas .tarjetas .tarjeta-1 img {
-  width: 3rem;
-  height: 3rem;
+.sec-tarjetas .tarjetas .tarjeta-1 .contenedor-item-tarjetas img {
+  width: 3.5rem;
+  height: 3.5rem;
 }
-.sec-tarjetas .tarjetas .tarjeta-1 h2 {
-  color: #fff;
-  margin: 1rem 0;
+.sec-tarjetas .tarjetas .tarjeta-1 .contenedor-item-tarjetas h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #2e2e2e;
+  margin: 0;
 }
-.sec-tarjetas .tarjetas .tarjeta-1 p {
-  color: #fff;
+.sec-tarjetas .tarjetas .tarjeta-1 .contenedor-item-tarjetas p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #444;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .sec-tarjetas .tarjetas {
+    flex-direction: column;
+  }
+  .sec-tarjetas .tarjetas .tarjeta-1 {
+    flex: 1 1 100%;
+  }
 }
 
 .sec-contacto {
-  background-color: #13131b;
+  background-color: #fff7f3;
   padding: 0;
   margin: 0;
 }
 .sec-contacto .texto {
   color: #666666;
   font-size: 5rem;
-  padding: 15rem 0 9rem 0;
+  padding: 18rem 0 18rem 0;
   font-weight: 600;
   background-clip: text;
   -webkit-background-clip: text;
-  color: #fff;
+  color: #303030;
 }
 
 .sec-footer {
   width: 100%;
-  background-color: #13131b;
+  background-color: #d2cbe7;
   display: flex;
   justify-content: space-evenly;
   padding: 3rem 0;
 }
 .sec-footer .footer-izq {
-  color: #fff;
+  color: #332e2e;
 }
 .sec-footer .footer-der {
   display: flex;
-  color: #fff;
+  color: #332e2e;
 }
 .sec-footer .footer-der a {
   text-decoration: none;
-  color: #fff;
+  color: #332e2e;
   margin: 0 1rem;
   font-size: 1rem;
   font-weight: 500;
@@ -239,7 +265,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  background-color: #13131b;
+  background-color: #fff7f3;
   justify-content: space-evenly;
   align-items: center;
   padding: 10rem 9rem;
@@ -248,27 +274,31 @@
   list-style: none;
 }
 .footer-1 .title-footer {
-  font-size: 2.5rem;
-  color: #fff;
+  font-size: 3rem;
+  color: #303030;
 }
 .footer-1 .div-subelementos {
   margin: 0 0 1rem 1rem;
 }
 .footer-1 .title-subelemento {
   font-size: 18px;
-  color: #fff;
+  color: #303030;
 }
 .footer-1 .title-subelemento a .text-subelemento {
   text-decoration: none;
 }
 .footer-1 .text-subelemento {
-  color: #fff;
+  color: #303030;
 }
 .footer-1 .footer-elemento {
   display: flex;
 }
 
 @media (max-width: 768px) {
+  .cont-saludos {
+    width: 100%;
+    background-position: center;
+  }
   .nav {
     display: flex;
     flex-direction: column;
@@ -287,6 +317,11 @@
     background-color: rgba(158, 158, 158, 0.4745098039);
     border-radius: 12px;
     border: 1px solid #979797;
+  }
+  .home {
+    background-image: url(/multimedia/bbblurry.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .home .imagen .cont-saludos {
     padding-top: 11rem;
@@ -338,8 +373,7 @@
     flex-direction: column;
   }
   .sec-tarjetas .tarjetas .tarjeta-1 {
-    background-color: #13131b;
-    border: 1px dashed #fff;
+    background: linear-gradient(145deg, #e8e2f8, #d6d0ec);
   }
   .footer-1 {
     display: flex;
@@ -353,7 +387,6 @@
 @media (min-width: 1024px) {
   .sec-tarjetas .tarjetas {
     margin: 0;
-    padding: 5rem;
   }
 }
 

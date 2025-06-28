@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+  .cont-saludos{
+    width: 100%;
+    background-position: center;
+  }
   .nav {
     display: flex;
     flex-direction: column;
@@ -23,6 +27,9 @@
   }
 
   .home {
+    background-image: url(/multimedia/bbblurry.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
     .imagen {
       .cont-saludos {
         padding-top: 11rem;
@@ -89,8 +96,7 @@
     .tarjetas {
       flex-direction: column;
       .tarjeta-1 {
-        background-color: #13131b;
-        border: 1px dashed #fff;
+        background: linear-gradient(145deg, #e8e2f8, #d6d0ec);
       }
     }
   }
@@ -105,8 +111,8 @@
 }
 
 @media (min-width: 1024px) {
+
   .sec-tarjetas .tarjetas {
     margin: 0;
-    padding: 5rem;
   }
 }

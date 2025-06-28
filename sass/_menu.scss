@@ -11,11 +11,11 @@
 .sec-izq {
   a {
     text-decoration: none;
-    color: #fff;
-    font-weight: 500;
+    color: #332e2e;
+    font-weight: 700;
     display: flex;
     align-items: center;
-    font-size: 1rem;
+    font-size: 20px;
   }
   .item-izquierdo {
     margin: 0 5px;
@@ -29,14 +29,14 @@
 .sec-der {
   display: flex;
   flex-direction: row;
-  font-weight: 500;
+  font-weight: 600;
   .item-derecha {
     margin: 0 1rem;
   }
   a {
     text-decoration: none;
-    color: #fff;
-    font-size: 1rem;
+    color: #332e2e;
+    font-size: 20px;
     margin: 0 1rem;
   }
   a:hover {
@@ -45,5 +45,6 @@
 }
 
 .separador {
-  color: #fff;
+  font-size: 20px;
+  color: #332e2e;
 }
