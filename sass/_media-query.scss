@@ -69,6 +69,8 @@
         a {
           display: flex;
           justify-content: center !important;
+          font-size: 1.2rem;
+          font-weight: 600;
         }
       }
     }
@@ -92,7 +94,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 6rem 0 0 0;
+    padding: 6rem 1rem;
     .tarjetas {
       flex-direction: column;
       .tarjeta-1 {
