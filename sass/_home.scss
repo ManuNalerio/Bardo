@@ -3,29 +3,34 @@
   .imagen {
     width: 100%;
     .cont-saludos {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      background-image: url(/multimedia/bblur.svg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      .texto-saludo {
-        color: #332e2e;
-        font-size: 1.5rem;
-      }
-      .title {
-        font-size: 4.5rem;
-        font-family: "Raleway", sans-serif;
-        margin: 0 25rem;
-        text-align: center;
-        margin-top: 4rem;
-        background-clip: text;
-        font-weight: 700;
-        -webkit-background-clip: text;
-        color: transparent;
-        text-shadow: 1px 1px #303030;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 2rem;
+    background-image: url("/multimedia/Grad_07.png");
+    background-repeat: no-repeat;
+    background-size: 650px; /* Tamaño inicial en escritorio */
+    background-position: 70px 100px;
+    background-blend-mode: soft-light; // opcional, para suavizar
+
+  .texto-saludo {
+    color: #332e2e;
+    font-size: 1.5rem;
+  }
+
+  .title {
+    font-size: 4.5rem;
+    font-family: "Raleway", sans-serif;
+    margin: 0 25rem;
+    text-align: center;
+    margin-top: 4rem;
+    background-clip: text;
+    font-weight: 700;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 1px 1px #303030;
       }
     }
   }

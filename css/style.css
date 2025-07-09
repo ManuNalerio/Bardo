@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 * {
@@ -69,9 +70,12 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url(/multimedia/bblur.svg);
-  background-size: cover;
+  padding: 0 2rem;
+  background-image: url("/multimedia/Grad_07.png");
   background-repeat: no-repeat;
+  background-size: 650px; /* Tamaño inicial en escritorio */
+  background-position: 70px 100px;
+  background-blend-mode: soft-light;
 }
 .home .imagen .cont-saludos .texto-saludo {
   color: #332e2e;
@@ -109,7 +113,7 @@
   padding: 4rem 0;
   text-align: center;
   margin: 0 auto;
-  background: linear-gradient(145deg, #e8e2f8, #d7d4de);
+  background-color: #ebebeb;
   overflow-x: hidden;
 }
 .slider .kpi {
@@ -178,7 +182,7 @@
 }
 .sec-tarjetas .tarjetas .tarjeta-1 {
   flex: 1 1 45%;
-  background: linear-gradient(145deg, #e8e2f8, #d7d4de);
+  background-color: #ebebeb;
   border-radius: 16px;
   padding: 3rem;
   display: flex;
@@ -225,6 +229,10 @@
   background-color: #feffff;
   padding: 0;
   margin: 0;
+  background-image: url("/multimedia/Grad_16.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: right center;
 }
 .sec-contacto .texto {
   color: #666666;
@@ -238,7 +246,7 @@
 
 .sec-footer {
   width: 100%;
-  background-color: #d7d4de;
+  background-color: #ebebeb;
   display: flex;
   justify-content: space-evenly;
   padding: 3rem 0;
@@ -319,17 +327,19 @@
     border: 1px solid #979797;
   }
   .home {
-    background-image: url(/multimedia/bbblurry.svg);
     background-size: cover;
     background-repeat: no-repeat;
   }
   .home .imagen .cont-saludos {
-    padding-top: 11rem;
+    padding-top: 8rem;
+    background-image: url("/multimedia/Grad_07.png");
+    background-repeat: no-repeat;
+    background-size: 120vw;
+    background-position: -130px 100px;
   }
   .home .imagen .cont-saludos .title {
-    font-size: 3rem;
-    margin-top: 2.5rem;
-    margin-bottom: 6rem;
+    font-size: 2.5rem;
+    margin: 2rem 1.5rem 4rem 1.5rem;
   }
   .home .imagen .cont-saludos .texto-saludo {
     font-size: 1rem;
@@ -359,6 +369,10 @@
   }
   .sec-contacto .contacto-text {
     width: 100%;
+    background-image: url("/multimedia/Grad_16.png");
+    background-repeat: no-repeat;
+    background-size: 120vw;
+    background-position: 130px 100px;
   }
   .sec-contacto .contacto-text .texto {
     font-size: 3.5rem;
@@ -375,7 +389,7 @@
     flex-direction: column;
   }
   .sec-tarjetas .tarjetas .tarjeta-1 {
-    background: linear-gradient(145deg, #e8e2f8, #d6d0ec);
+    background-color: #ebebeb;
   }
   .footer-1 {
     display: flex;

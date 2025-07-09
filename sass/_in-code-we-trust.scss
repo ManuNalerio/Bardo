@@ -2,6 +2,12 @@
   background-color: #feffff;
   padding: 0;
   margin: 0;
+
+    // Imagen decorativa de fondo
+  background-image: url('/multimedia/Grad_16.png');
+  background-repeat: no-repeat;
+  background-size: 40%; // Ajustás según el tamaño que te guste
+  background-position: right center;
   .texto {
     color: #666666;
     font-size: 5rem;
