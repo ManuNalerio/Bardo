@@ -109,7 +109,7 @@
   padding: 4rem 0;
   text-align: center;
   margin: 0 auto;
-  background: linear-gradient(145deg, #e8e2f8, #d6d0ec);
+  background: linear-gradient(145deg, #e8e2f8, #d7d4de);
   overflow-x: hidden;
 }
 .slider .kpi {
@@ -178,7 +178,7 @@
 }
 .sec-tarjetas .tarjetas .tarjeta-1 {
   flex: 1 1 45%;
-  background: linear-gradient(145deg, #e8e2f8, #d6d0ec);
+  background: linear-gradient(145deg, #e8e2f8, #d7d4de);
   border-radius: 16px;
   padding: 3rem;
   display: flex;
@@ -238,7 +238,7 @@
 
 .sec-footer {
   width: 100%;
-  background-color: #d2cbe7;
+  background-color: #d7d4de;
   display: flex;
   justify-content: space-evenly;
   padding: 3rem 0;
